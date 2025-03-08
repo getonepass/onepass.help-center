@@ -1,0 +1,80 @@
+# Understanding Decentralized Identifiers (DIDs)
+
+## Introduction
+Decentralized Identifiers (DIDs) are a core component of decentralized identity systems. Unlike traditional identifiers (such as email addresses or usernames), DIDs are self-owned, tamper-resistant, and do not rely on centralized authorities. This guide explains how DIDs work, their structure, and their role in digital trust ecosystems.
+
+## What Are Decentralized Identifiers (DIDs)?
+A **Decentralized Identifier (DID)** is a globally unique identifier created, owned, and controlled by an individual or organization without the need for a central registry or authority. DIDs enable users to establish verifiable, privacy-preserving digital identities.
+
+### Key Characteristics of DIDs:
+- **Self-Sovereign** – Users create and manage their own identifiers without relying on third parties.
+- **Verifiable & Tamper-Proof** – Stored on a decentralized ledger or distributed network, ensuring integrity.
+- **Privacy-Preserving** – Users selectively disclose identity attributes without exposing unnecessary data.
+- **Interoperable** – Based on W3C standards, enabling use across different platforms and services.
+
+## How Do DIDs Work?
+DIDs function as a foundational layer for trust in digital interactions. Here’s how they work:
+1. **DID Creation:** A user or entity generates a DID using a decentralized identity wallet.
+2. **DID Storage:** The DID is registered on a blockchain, distributed ledger, or decentralized network.
+3. **DID Document:** Each DID is associated with a DID Document containing metadata, cryptographic keys, and service endpoints.
+4. **Verification:** Other parties can verify the DID’s authenticity without relying on a central authority.
+5. **Credential Issuance:** Users receive verifiable credentials linked to their DID from trusted issuers.
+6. **Selective Disclosure:** Users present credentials to verifiers, proving specific claims without exposing their full identity.
+
+## Structure of a DID
+A DID typically follows this structure:
+```
+did:method:unique_identifier
+```
+- **`did:`** – A required prefix indicating it is a Decentralized Identifier.
+- **`method:`** – Specifies the DID method, which determines how the DID is created and resolved (e.g., `did:ion`, `did:ethr`).
+- **`unique_identifier:`** – A unique string that identifies the DID owner within the chosen method.
+
+### Example of a DID:
+```
+did:example:123456789abcdefghi
+```
+
+## The Role of DID Documents
+A **DID Document** contains key information needed to verify the DID’s authenticity. It includes:
+- **Public Keys:** Used for cryptographic verification of credentials.
+- **Service Endpoints:** URLs pointing to trusted services associated with the DID.
+- **Authentication Methods:** Mechanisms to prove control over the DID.
+
+### Example of a DID Document:
+```json
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authentication": [{
+    "type": "Ed25519SignatureAuthentication2018",
+    "publicKey": "did:example:123456789abcdefghi#keys-1"
+  }],
+  "service": [{
+    "type": "IdentityHub",
+    "serviceEndpoint": "https://hub.example.com/"
+  }]
+}
+```
+
+## Why Are DIDs Important for Digital Trust Ecosystems?
+DIDs play a crucial role in creating trusted, decentralized digital interactions by:
+- **Eliminating Centralized Control:** Users no longer depend on governments or corporations for identity verification.
+- **Enhancing Privacy & Security:** Data breaches are minimized, and personal information is not stored in centralized databases.
+- **Enabling Cross-Border Interoperability:** DIDs work across different networks and jurisdictions.
+- **Supporting Verifiable Credentials:** DIDs act as anchors for digital credentials that can be verified instantly.
+
+## Real-World Applications of DIDs
+- **Financial Services:** Secure KYC verification for banking and DeFi platforms.
+- **Healthcare:** Patient identity management and medical records access.
+- **Education:** Issuance of digital diplomas and academic credentials.
+- **Government Services:** Digital IDs for online access to public services.
+
+## The Role of OnePass Credentials
+OnePass Credentials enables organizations to create, manage, and verify DIDs seamlessly. By integrating OnePass Credentials, businesses can build trusted digital ecosystems that prioritize user sovereignty, security, and efficiency.
+
+## Conclusion
+DIDs are the foundation of decentralized identity, providing individuals and organizations with greater control, security, and interoperability in digital interactions. Understanding and adopting DIDs is the first step toward a more trusted, user-centric internet.
+
+**Learn More:** Discover how OnePass Credentials can help implement DIDs in your ecosystem. Visit [website link] for details.
+

@@ -1,0 +1,55 @@
+---
+title: "W3C Standards for Decentralized Identity"
+sidebarTitle: "W3C Standards for Decentralized Identity"
+description: "Learn about the W3C standards for Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) that form the foundation of decentralized identity systems."
+sidebarPosition: 2
+---
+
+# W3C Standards for Decentralized Identity
+
+The World Wide Web Consortium (W3C) has set several key standards and protocols to support the development and adoption of decentralized identity (DID) systems and Verifiable Credentials (VCs). These standards lay the groundwork for a more secure, privacy-preserving, and interoperable digital identity ecosystem. Below are the key W3C standards for DIDs and VCs:
+
+## Decentralized Identifiers (DIDs)
+
+DIDs are a new type of identifier designed for use with decentralized identity systems. Unlike traditional identifiers (like email addresses or social security numbers), DIDs are fully decentralized, meaning they are not tied to any centralized registry or authority.
+- W3C DID Specification: This standard defines the structure, creation, and resolution of DIDs, as well as the underlying mechanisms of DID Documents (DID Docs). A DID Document contains the public keys and other data necessary to verify the identity of the DID subject, enabling trust and interoperability across decentralized systems.
+Key Features of DIDs:
+- Self-sovereign: A DID is not controlled by any central party, providing the individual with full control.
+- Interoperability: DIDs can be used across various domains, systems, and services.
+- Privacy-preserving: The DID does not require central authority validation, enhancing user privacy.
+- DID Methods: Each DID is associated with a DID method, which defines how the DID is created, resolved, and how the associated DID Document is stored. There are various DID methods, such as DID methods based on blockchain technologies, distributed ledgers, or peer-to-peer networks.
+
+## Verifiable Credentials (VCs)
+
+Verifiable Credentials (VCs) are digital statements made by a trusted issuer about a subject. These credentials can be cryptographically verified, ensuring their integrity and authenticity. VCs enable the issuance and sharing of claims, such as age, qualifications, or membership, in a way that respects privacy and security.
+- W3C Verifiable Credentials Data Model: The W3C standard outlines a data model for creating, verifying, and sharing VCs. VCs consist of claims made by an issuer about a subject, which are cryptographically signed to ensure authenticity.
+  
+**Key Features of VCs:**
+- Issuer: The entity that creates and signs the credential.
+- Holder: The individual or entity that receives and stores the credential.
+- Verifier: The entity that checks the authenticity and validity of the credential.
+- Credential Format: VCs are typically issued in JSON-LD (Linked Data) format, allowing for interoperability and easy integration into web-based applications.
+- Proof of Integrity: VCs use cryptographic proofs to ensure that the data has not been altered since issuance. This can involve public key infrastructure (PKI) or other cryptographic techniques.
+
+## W3C DID and VC Use Cases
+
+The W3C standards for DIDs and VCs support a wide range of use cases:
+- Digital Identity: Users can create and control their own digital identities without relying on central authorities. This enhances user autonomy and reduces the risk of data breaches.
+- Credentialing Systems: VCs enable trusted digital credentials that can be used in education, employment, or finance, making the credentialing process more efficient and secure.
+- Authentication and Access Control: DIDs and VCs can be used for secure login and authorization to digital platforms, reducing the need for passwords or centralized identity providers.
+- Supply Chain and Provenance: By using VCs, supply chain actors can share verified data about the origin and authenticity of products, ensuring transparency and reducing fraud.
+
+## Key Protocols and Technologies
+- DID Resolution: This protocol allows a DID resolver to retrieve a DID Document from a decentralized registry or network. The DID Document contains the public keys and metadata needed to verify the identity of the DID subject.
+- VC Issuance and Verification: The process involves an issuer creating a credential, signing it with their private key, and sending it to the holder. The holder can then share the credential with a verifier, who will check the signature and other cryptographic proofs to verify its authenticity.
+- Revocation and Expiration: VCs can include mechanisms to indicate when they are no longer valid, such as expiration dates or revocation lists. This is crucial for maintaining the credibility and validity of digital credentials.
+- Privacy and Zero-Knowledge Proofs (ZKPs): To ensure privacy, VCs and DIDs can leverage techniques like Zero-Knowledge Proofs, allowing a verifier to check the validity of a claim without needing to access the actual data (e.g., proving age without revealing birthdate).
+
+## Future Directions and Ongoing Development
+
+The W3C continues to evolve the standards around DIDs and VCs to address emerging needs and challenges. Key areas of ongoing development include:
+- Interoperability: Efforts are underway to ensure that DIDs and VCs are compatible across different platforms and systems.
+- Governance and Trust Frameworks: As decentralized identity systems gain traction, it is essential to establish frameworks for trust, governance, and compliance with legal and regulatory requirements.
+- Enhanced Privacy Features: The W3C is exploring more advanced privacy techniques to give users greater control over how their identity information is shared and used.
+
+These W3C standards provide the foundation for creating a decentralized identity ecosystem that is secure, private, and user-centric. By following these standards, organizations can build interoperable systems that empower individuals while ensuring the integrity and trustworthiness of digital identities.

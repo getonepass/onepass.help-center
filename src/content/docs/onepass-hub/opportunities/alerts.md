@@ -1,0 +1,46 @@
+---
+id: alerts
+title: How can I set up email alerts on opportunities?
+sidebar_label: 'email alerts'
+sidebar_position: 3
+tags:
+  - Alerts
+  - Opportunities' notification
+ ---
+ 
+ 
+Email alerts are a feature in OnePass Hub that allows registered users to receive weekly emails containing a list of new funding opportunities that match their specific interests. Users can create multiple alerts with different filters to ensure they receive relevant opportunities without having to manually search the site each time.
+
+## How to Create an Email Alert
+
+To create an email alert, follow these steps:
+
+- Log in to your OnePass Hub account.
+- Perform a search using the search engine and apply any desired filters.
+- Click on the "Create alert" button located above the search results.
+
+## Editing Email Alert Filters
+
+To edit the filters for an existing email alert:
+
+- Log in to your OnePass Hub account.
+- Navigate to the "[Email alerts](https://getonepass.eu/account/alerts)" section in your account settings.
+- Locate the alert you wish to edit and click on the "Edit" button next to it.
+- Modify the filters as desired and click on "Save Changes" to apply the new settings.
+
+## Deleting an Email Alert
+
+To delete an email alert:
+
+- Log in to your OnePass Hub account.
+- Navigate to the "[Email alerts](https://getonepass.eu/account/alerts)" section in your account settings.
+- Locate the alert you wish to delete and click on the "Delete" button next to it.
+- Confirm the deletion by clicking on "Remove" in the confirmation popup.
+
+## Managing Your Email Alerts
+
+You can manage your email alerts by navigating to the "[Email alerts](https://getonepass.eu/account/alerts)" section in your account settings. Here, you can view, edit, or delete any of your existing alerts.
+
+## Frequency and Content of Email Alerts
+
+Email alerts are sent weekly and contain a list of all new funding opportunities that match the filters you've set for each alert and, as a reminder, a list of those matching which are close to its deadline for application. The email will include the opportunity title, a brief description, and a link to the full listing on OnePass Hub.
