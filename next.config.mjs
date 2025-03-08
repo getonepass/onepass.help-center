@@ -17,7 +17,7 @@ export default withNextra({
   reactStrictMode: true,
   skipTrailingSlashRedirect: true,
   assetPrefix: assetPrefix,
-  basePath: assetPrefix,
+  // basePath: assetPrefix,
   // Export only when building in GitHub Actions
   output: process.env.GITHUB_ACTION ? 'export' : undefined,
   sassOptions: {
