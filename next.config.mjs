@@ -5,13 +5,13 @@ const withNextra = nextra({
   //contentDirBasePath: '/docs'
 })
 
-const isProduction = process.env.NODE_ENV === "production";
-const repositoryName = process.env.GITHUB_REPOSITORY.split('/')[1]
-const assetPrefix = isProduction ? `/${repositoryName}/` : "";
+const isProduction = process.env.NODE_ENV === "production"
+const repositoryName = "onepass.docs"
+const assetPrefix = isProduction ? `/${repositoryName}/` : ""
 
 export default withNextra({
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   cleanDistDir: true,
   reactStrictMode: true,

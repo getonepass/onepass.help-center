@@ -1,3 +1,5 @@
+import React from "react"
+import type { JSX } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "@/components/Icons"
 

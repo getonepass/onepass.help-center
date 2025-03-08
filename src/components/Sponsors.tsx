@@ -1,3 +1,5 @@
+import React from "react"
+import type { JSX } from "react"
 import { Radar } from "lucide-react"
 
 interface SponsorProps {
