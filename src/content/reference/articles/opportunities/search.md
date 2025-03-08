@@ -66,7 +66,7 @@ You can remove a tag from your combination by unmarking the category in the corr
 
 ### Setting up notifications
 
-If you found the right mix of search criteria to get the list of opportunities that best fit your interest, you can create an alert. [Find out how](./alerts)
+If you found the right mix of search criteria to get the list of opportunities that best fit your interest, you can create an alert. [Find out how](./alerts.md)
 
 #### Results list
 

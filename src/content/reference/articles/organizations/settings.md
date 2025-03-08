@@ -67,11 +67,8 @@ To ensure security and maintain your trust, we require a verification process fo
 You can delete any sender identity at any point by clicking the trash button that will appear to the right of the sender identity mail. The tick sign next to it will help you enable the identity if you didn't mark as default at the moment of creating it.
 :::
 
-[//]: # (Check how to add the forwarding email and add a brief reference)
-
 ## email and domain verification
 
 You can verify the domains controlled by your organization to confirm your organization's identity on OnePass. A Verified badge will be added to your organization's profile page if all of the domains displayed on your profile (e.g. public email or website URL) are verified.
-[//]: # (Add a domain feature is not working)
 
 In this section, you will also be able to request your business verification.

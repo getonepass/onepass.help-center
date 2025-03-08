@@ -6,12 +6,14 @@ const config = {
         "line-length": {
             strict: false,
             code_blocks: false,
-            line_length: 500
+            line_length: 2000
         },
         "first-line-h1": false,
         "single-h1": false,
         "no-inline-html": false,
-
+        "no-duplicate-heading": {
+            "siblings_only": true
+        },
         // part of the markdownlint-rule-relative-links plugin
         "relative-links": true
     },

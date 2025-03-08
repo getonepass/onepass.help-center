@@ -19,7 +19,7 @@ From the **left side menu** you can access the following options and sections:
 - **[My company profile](./investor-profile.md)** will guide you to the information about your company that you are showing to the ecosystem and that the platform will use to recommend you new startups.
 - the **Document Hub** will lead you to a section where  you can effortlessly organize and share essential documents like the "Fund term sheet" or the "Fund memorandum"
 - the [Source](./discovery.md) section, groups a series of options to help you discover and make contact with promising startups ("Companies") and founders ("People"), save your mix of criteria to identify them ("Save searches") or create lists to track them ("Lists" and "Watchlist")
-- from the **[Connect](./connect.md)** section, you will find your "Directory", including the contacts of the companies and People in your network, and you can manage and follow-up your interactions within the platform by "messages", "email" or the "Pitch inbox".
+- from the **[Connect](./connect-investors.md)** section, you will find your "Directory", including the contacts of the companies and People in your network, and you can manage and follow-up your interactions within the platform by "messages", "email" or the "Pitch inbox".
 
 On the other hand, in the central area, you will find updates on:
 

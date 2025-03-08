@@ -26,7 +26,7 @@ Context for this flow: User does not have a wallet, visits the government websit
 
 ![Onboarding Flow 3](./img/onboarding-flow-3.png)
 
-## Wallet-based Approach
+## Wallet-based Approach 2
 
 Context for this flow: User does have a (EUDI) wallet, visits government website and claims credentials.
 

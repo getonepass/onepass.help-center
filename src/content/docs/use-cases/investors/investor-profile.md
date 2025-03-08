@@ -18,7 +18,7 @@ If you haven't enrolled to the waiting list to join the OnePass Bridge Pilot, yo
 
 To sign up, you will only be requested to include an email, a username and an authentication method (e.g. passkey) to create a user account and, once you click the link on the email sent to you to verify the email address you provided, a few additional data will be required to create your user account: i.e. fist name, last name, headline and location, but it's only compulsory to include the name details.
 
-Read ["About workspaces"](./../../profile/organization.md) article for more details on how to manage your workspace settings.
+Read *About workspaces* article for more details on how to manage your workspace settings.
 
 ## Company and investor profile
 

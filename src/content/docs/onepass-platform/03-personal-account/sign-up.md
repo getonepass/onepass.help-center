@@ -16,7 +16,7 @@ tags:
 
 Signing up for OnePass is quick and easy. You can choose to sign up using your email address and a password, using an external identity provider (IdP) such as Google, LinkedIn or FundingBox or using a PassKey. This article will guide you through the process.
 
-### Sign-up with your email
+## Sign-up with your email
 
 To sign up for OnePass using your proffessional email address, go to the [OnePass sign-up](https://app.getonepass.eu/signup) and, in the text boxes, type your email account. You will receive in your email a one-time use code which you can use to access and create your user account (your account as an individual) for the first time. Once the account is created, you can define your preferred authetication method by following these steps:
 
@@ -27,13 +27,15 @@ To sign up for OnePass using your proffessional email address, go to the [OnePas
 
 Remember to read and accept the terms of service and privacy policy, before signing-up!
 
-### Sign-in with a Passkey
+# Signing in
+
+## Sign-in with a Passkey
 
 Passkeys are a password replacement that validates your identity using touch, facial recognition, a device password, or a PIN. Passkeys can be used for sign-in as a simple and secure alternative to your password and two-factor credentials.
 
 This browser or device is reporting partial passkey support, but you may be able to use a passkey from a nearby device.
 
-### Sign-in with an External Identity Provider (IdP)
+## Sign-in with an External Identity Provider (IdP)
 
 To set up the sign-in for OnePass using an external IdP such as Google, LinkedIn, or FundingBox, follow these steps:
 
@@ -42,18 +44,18 @@ To set up the sign-in for OnePass using an external IdP such as Google, LinkedIn
 - Follow the on-screen instructions to grant OnePass access to your IdP account.
 - Once the process is complete, you will be redirected to your OnePass homepage.
 
-### Important Information Regarding Sign-in Methods
+## Important Information Regarding Sign-in Methods
 
 Please note that if you sign in using an external IdP, you will only be able to sign in using that same IdP. If you would like to add additional sign-in mechanisms, such as the ability to sign in using a combination of email and password, you will need to link or activate the specific mechanism within your account settings.
 
-## Sign out of OnePass
+# Sign out of OnePass
 
 Signing out of OnePass is a simple process that helps protect your account security. To sign out of OnePass, follow these steps:
 
 - Click on your profile picture or initials in the top right corner of the page.
 - Click on the Logout black button.
 
-### Signing Out of All Other Sessions
+## Signing Out of All Other Sessions
 
 To logout of all other OnePass sessions (in other browsers or computers), follow these steps:
 

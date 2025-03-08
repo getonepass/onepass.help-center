@@ -23,7 +23,7 @@ If you already have a user account, you will be invited to create a workspace to
 
 Devote some time to complete the information of your workspace, because all the information you provide at this point will be feeding your company profile and, hence, later you won't have to start this profile from scratch.
 
-Read ["About workspaces"](./../../profile/organization.md) article for more details on how to manage your workspace settings.
+Read *About workspaces* article for more details on how to manage your workspace settings.
 
 ## Company profile
 

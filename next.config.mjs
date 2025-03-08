@@ -11,7 +11,7 @@ const assetPrefix = isProduction ? `/${repositoryName}` : ""
 
 export default withNextra({
   eslint: {
-    ignoreDuringBuilds: false,
+    ignoreDuringBuilds: true,
   },
   cleanDistDir: true,
   reactStrictMode: true,

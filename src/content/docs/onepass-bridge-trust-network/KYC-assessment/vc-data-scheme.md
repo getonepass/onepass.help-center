@@ -10,7 +10,7 @@ The credentials to be issued in the first phase of the project, including those 
 
 The following shows a W3V Verifiable Credential data model based on the verifications performed by ID verification companies. As a result, this data model shows a Verifiable Credential in a privacy preserving way (i.e. without PII).
 
-```
+```json
 {
    "@context": ["https://www.w3.org/2018/credentials/v1"],
    "type": ["VerifiableCredential", "VerifiableAttestation", "KycChecksCredential"],
@@ -65,7 +65,7 @@ The following shows a W3V Verifiable Credential data model based on the verifica
 
 The following shows a W3V Verifiable Credential data model based on the verifications performed by ID verification companies. As a result, this data model shows a Verifiable Credential (i.e. incl. PII).
 
-```
+```json
 {
    "@context": ["https://www.w3.org/2018/credentials/v1"],
    "type": ["VerifiableCredential", "VerifiableAttestation", "KycDataCredential"],
@@ -112,7 +112,7 @@ The following shows a W3V Verifiable Credential data model based on the verifica
 
 The following shows a W3V Verifiable Credential data model based on the EBSI model for “Verifiable IDs”, which is the way identity credentials for identifications are introduced by the EBSI ecosystems.
 
-```
+```json
 {
  "@context": [
    "https://www.w3.org/2018/credentials/v1"

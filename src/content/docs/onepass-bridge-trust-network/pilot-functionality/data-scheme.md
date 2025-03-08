@@ -9,7 +9,7 @@ sidebar_position: 5
 The following shows a W3V Verifiable Credential data model based on the verifications performed by ID
 verification companies. As a result, this data model shows a Verifiable Credential (i.e. incl. PII).
 
-```
+```json
 {
     "@context": ["https://www.w3.org/2018/credentials/v1"],
     "type": ["VerifiableCredential", "VerifiableAttestation", "KycDataCredential"],
@@ -59,7 +59,7 @@ verification companies. As a result, this data model shows a Verifiable Credenti
 
 The following is the schema of an EBSI variable ID for a legal entity.
 
-```
+```json
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "EBSI Legal Entity Verifiable ID",

@@ -21,7 +21,7 @@ In the contacts section, you will see the details of the companies and users in 
 - For the companies, by default, a table will be shown including: name, high-concept pitch, website, country, industries, technologies and main contact.
 - People in your contacts will also be shown in a table detailing username, first name, last name, headline, location, bio, timezone, email address...
 
-To manage these tables, some tools are provided to search and manage data: filter/reports, show/hyde columns, group, copy to dashboard, export to... They work in the same way as in the "Companies" option of the "[Source](./discovery)" section.
+To manage these tables, some tools are provided to search and manage data: filter/reports, show/hyde columns, group, copy to dashboard, export to... They work in the same way as in the "Companies" option of the "[Source](./discovery.md)" section.
 [//]: # (Will this section be available to all investors?)
 
 ## Messaging

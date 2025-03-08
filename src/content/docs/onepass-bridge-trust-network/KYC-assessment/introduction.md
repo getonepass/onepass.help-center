@@ -65,11 +65,11 @@ Over the coming years, KYC will dramatically change, particularly due to emergin
 Europe’s eIDAS2 regulations as well as corresponding changes to existing AML regulations. As a result,
 there will be two main paradigms for digital identity verification:
 
-1. Traditional KYC
+### Traditional KYC
 
 This type of KYC corresponds to the solutions outlined in the last section.
 
-2. Wallet-based KYC
+### Wallet-based KYC
 
 The introduction of digital identity wallets - such as the so-called “EUDI” wallets in Europe based on the
 eIDAS2 regulation - will enable individuals to have a collect, store, manage and share their identity
