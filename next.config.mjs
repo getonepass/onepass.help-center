@@ -7,7 +7,7 @@ const withNextra = nextra({
 
 const isProduction = process.env.NODE_ENV === "production"
 const repositoryName = "onepass.docs"
-const assetPrefix = isProduction ? `/${repositoryName}/` : ""
+const assetPrefix = isProduction ? `/${repositoryName}` : ""
 
 export default withNextra({
   eslint: {
