@@ -68,7 +68,7 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Run post-build script
-        run: ${{ steps.detect-package-manager.outputs.runner }} pagefind --site .next/server/app --output-path public/_pagefind
+        run: ${{ steps.detect-package-manager.outputs.runner }} pagefind --site .next/server/app --output-path .next/static/_pagefind
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
