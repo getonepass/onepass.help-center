@@ -24,7 +24,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
+    "prettier:check": "prettier --no-semi --check \"**/*.{js,jsx,ts,tsx}\"",
     "prettier:write": "prettier --no-semi --write \"**/*.{js,jsx,ts,tsx}\"",
     "test": "yarn run prettier:write && yarn run markdownlint-cli2 --fix",
     "test-check": "yarn run prettier:check && yarn run markdownlint-cli2 --config .markdownlint-cli2.mjs",
