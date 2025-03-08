@@ -5,6 +5,10 @@ const withNextra = nextra({
   //contentDirBasePath: '/docs'
 })
 
+const isProduction = process.env.NODE_ENV === "production";
+const repositoryName = process.env.GITHUB_REPOSITORY.split('/')[1]
+const assetPrefix = isProduction ? `/${repositoryName}` : "";
+
 export default withNextra({
   eslint: {
     ignoreDuringBuilds: true,
@@ -12,7 +16,8 @@ export default withNextra({
   cleanDistDir: true,
   reactStrictMode: true,
   skipTrailingSlashRedirect: true,
-  // basePath: "/help",
+  assetPrefix: assetPrefix,
+  basePath: assetPrefix,
   // Export only when building in GitHub Actions
   output: process.env.GITHUB_ACTION ? 'export' : undefined,
   sassOptions: {
