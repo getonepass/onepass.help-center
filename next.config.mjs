@@ -7,7 +7,7 @@ const withNextra = nextra({
 
 const isProduction = process.env.NODE_ENV === "production"
 const repositoryName = "onepass.docs"
-const assetPrefix = isProduction ? `/${repositoryName}` : ""
+const assetPrefix = isProduction ? `/${repositoryName}` : "" // Just if deployed as org.github.io/repo
 
 export default withNextra({
   eslint: {
@@ -16,7 +16,7 @@ export default withNextra({
   cleanDistDir: true,
   reactStrictMode: true,
   skipTrailingSlashRedirect: true,
-  assetPrefix: assetPrefix,
+  // assetPrefix: assetPrefix,
   // basePath: assetPrefix,
   // Export only when building in GitHub Actions
   output: process.env.GITHUB_ACTION ? 'export' : undefined,
