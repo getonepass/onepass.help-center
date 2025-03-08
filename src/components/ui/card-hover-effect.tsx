@@ -1,10 +1,9 @@
-'use client'
+"use client"
 
-import type { ReactNode } from 'react'
-import { cn } from '@/lib/utils'
-import { AnimatePresence, motion } from 'framer-motion'
-import { useState } from 'react'
-
+import type { ReactNode } from "react"
+import { cn } from "@/lib/utils"
+import { AnimatePresence, motion } from "framer-motion"
+import { useState } from "react"
 
 export const Card = ({
   className,
@@ -16,11 +15,11 @@ export const Card = ({
   return (
     <div
       className={cn(
-        'relative rounded-2xl h-full w-full p-4 overflow-hidden',
-        'border duration-200',
-        'bg-neutral-50 dark:bg-neutral-800',
-        'border-neutral-200/[0.5] dark:border-white/[0.1]',
-        'group-hover:border-neutral-300/[0.6] dark:group-hover:border-primary/[0.8]',
+        "relative rounded-2xl h-full w-full p-4 overflow-hidden",
+        "border duration-200",
+        "bg-neutral-50 dark:bg-neutral-800",
+        "border-neutral-200/[0.5] dark:border-white/[0.1]",
+        "group-hover:border-neutral-300/[0.6] dark:group-hover:border-primary/[0.8]",
         className,
       )}
     >
@@ -39,16 +38,17 @@ export const CardIcon = ({
   children?: React.ReactNode
 }) => {
   return (
-    <div className={cn(
-      'flex justify-center items-center',
-      'rounded-[6px]',
-      'text-neutral-600 dark:text-neutral-200',
-      'size-[48px] mb-[20px] bg-red-200',
-      'text-[24px]',
-      'bg-[#e3e3e5] dark:bg-[#1e1e20]',
-      'transition-all duration-300 dark:group-hover:text-primary',
-      className,
-    )}
+    <div
+      className={cn(
+        "flex justify-center items-center",
+        "rounded-[6px]",
+        "text-neutral-600 dark:text-neutral-200",
+        "size-[48px] mb-[20px] bg-red-200",
+        "text-[24px]",
+        "bg-[#e3e3e5] dark:bg-[#1e1e20]",
+        "transition-all duration-300 dark:group-hover:text-primary",
+        className,
+      )}
     >
       {children}
     </div>
@@ -62,11 +62,12 @@ export const CardTitle = ({
   children: React.ReactNode
 }) => {
   return (
-    <h4 className={cn(
-      'text-neutral-600 dark:text-neutral-200',
-      'font-bold tracking-wide mt-4',
-      className,
-    )}
+    <h4
+      className={cn(
+        "text-neutral-600 dark:text-neutral-200",
+        "font-bold tracking-wide mt-4",
+        className,
+      )}
     >
       {children}
     </h4>
@@ -83,8 +84,8 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        'mt-8 tracking-wide leading-relaxed text-sm',
-        'text-neutral-500 dark:text-neutral-300/[0.8]',
+        "mt-8 tracking-wide leading-relaxed text-sm",
+        "text-neutral-500 dark:text-neutral-300/[0.8]",
         className,
       )}
     >
@@ -110,7 +111,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-[10px]',
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-[10px]",
         className,
       )}
     >

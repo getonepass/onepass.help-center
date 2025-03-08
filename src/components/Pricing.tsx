@@ -1,5 +1,5 @@
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import {
   Card,
   CardContent,
@@ -7,8 +7,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Check } from "lucide-react";
+} from "@/components/ui/card"
+import { Check } from "lucide-react"
 
 enum PopularPlanType {
   NO = 0,
@@ -16,12 +16,12 @@ enum PopularPlanType {
 }
 
 interface PricingProps {
-  title: string;
-  popular: PopularPlanType;
-  price: number;
-  description: string;
-  buttonText: string;
-  benefitList: string[];
+  title: string
+  popular: PopularPlanType
+  price: number
+  description: string
+  buttonText: string
+  benefitList: string[]
 }
 
 const pricingList: PricingProps[] = [
@@ -70,7 +70,7 @@ const pricingList: PricingProps[] = [
       "lorem ipsum dolor",
     ],
   },
-];
+]
 
 export const Pricing = () => {
   return (
@@ -134,5 +134,5 @@ export const Pricing = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

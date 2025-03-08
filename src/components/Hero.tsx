@@ -1,10 +1,9 @@
-import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
-import Link from "next/link";
-import { IconLibrary, IconRocket } from "@tabler/icons-react";
-import { Search } from "nextra/components";
-import { Badge } from "./ui/badge";
-
+import { buttonVariants } from "./ui/button"
+import { HeroCards } from "./HeroCards"
+import Link from "next/link"
+import { IconLibrary, IconRocket } from "@tabler/icons-react"
+import { Search } from "nextra/components"
+import { Badge } from "./ui/badge"
 
 const popularSearches: string[] = [
   "Sign up",
@@ -13,16 +12,14 @@ const popularSearches: string[] = [
   "Documents HUB",
   "Verifications",
   "Decentralized Identity",
-];
+]
 
 export const Hero = () => {
   return (
     <section className="container w-[70cqw] grid lg:grid-cols-1 place-items-center py-20 md:py-32 gap-10">
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
-          <h1 className="inline">
-            Get the help you need
-          </h1>
+          <h1 className="inline">Get the help you need</h1>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
@@ -82,5 +79,5 @@ export const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

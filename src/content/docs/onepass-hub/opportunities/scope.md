@@ -4,11 +4,12 @@ title: Opportunities information in OnePass Hub
 sidebar_label: 'Opportunities information'
 sidebar_position: 1
 tags:
-  - Cascade funding
-  - Training 
-  - Information 
- ---
 
+- Cascade funding
+- Training
+- Information
+
+ ---
 
 [OnePass Hub](https://getonepass.eu/) offers information about cascade funding opportunities (also known as Financial Support to Third Parties - FSTP-) around specific thematic and technology domains. The focus is on these opportunities because they are usually easier to apply for by SMEs and they support targeted innovation and technology which is closer to market.
 

@@ -1,41 +1,37 @@
-import { Layout, Navbar } from "nextra-theme-docs";
-import { Head } from "nextra/components";
-import { getPageMap } from "nextra/page-map";
-import "nextra-theme-docs/style.css";
-import type { Metadata } from "next";
-import { NavigationMenuDemo } from "@/components/NavigationMenu";
-import ThemeToggle from "@/widgets/theme-toggle";
-import { cn } from "@/lib/utils";
+import { Layout, Navbar } from "nextra-theme-docs"
+import { Head } from "nextra/components"
+import { getPageMap } from "nextra/page-map"
+import "nextra-theme-docs/style.css"
+import type { Metadata } from "next"
+import { NavigationMenuDemo } from "@/components/NavigationMenu"
+import ThemeToggle from "@/widgets/theme-toggle"
+import { cn } from "@/lib/utils"
 
-import logo from "../assets/icon.ico";
-import Image from "next/image";
-import { Footer } from "@/components/Footer";
-import { Inter as FontSans } from "next/font/google";
-import localFont from "next/font/local";
-import { ThemeProvider } from "./_components/ThemeProvider";
+import logo from "../assets/icon.ico"
+import Image from "next/image"
+import { Footer } from "@/components/Footer"
+import { Inter as FontSans } from "next/font/google"
+import localFont from "next/font/local"
+import { ThemeProvider } from "./_components/ThemeProvider"
 
-import "./styles/index.css";
-
+import "./styles/index.css"
 
 export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
   metadataBase: new URL("https://help.getonepass.eu"),
   icons: "/img/favicon.svg",
-} satisfies Metadata;
-
-
+} satisfies Metadata
 
 const fontSans = localFont({
   src: "../assets/fonts/AvenirLTStd-Medium.woff",
   variable: "--font-sans",
-});
+})
 
 const fontHeading = localFont({
   src: "../assets/fonts/CalSans-SemiBold.woff2",
   variable: "--font-heading",
-});
-
+})
 
 const navbar = (
   <Navbar
@@ -56,13 +52,12 @@ const navbar = (
     <NavigationMenuDemo />
     <ThemeToggle className="max-md:hidden" />
   </Navbar>
-);
+)
 
 // @ts-expect-error 123123213
 export default async function RootLayout({ children }) {
-
-  const title = "OnePass Help Center";
-  const description = "Help and Resources";
+  const title = "OnePass Help Center"
+  const description = "Help and Resources"
 
   return (
     <html
@@ -94,7 +89,7 @@ export default async function RootLayout({ children }) {
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable,
-          fontHeading.variable
+          fontHeading.variable,
         )}
       >
         <ThemeProvider
@@ -118,5 +113,5 @@ export default async function RootLayout({ children }) {
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }

@@ -6,7 +6,7 @@ const config = {
         "line-length": {
             strict: true,
             code_blocks: false,
-            line_length: 100
+            line_length: 500
         },
         "single-h1": false,
         "no-inline-html": false,

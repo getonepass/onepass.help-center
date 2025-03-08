@@ -14,7 +14,7 @@ Yes, OnePass Bridge is free to use for all members of the ecosystem. There are n
 
 ## How can I join the pilot?
 
-This pilot program is limited and invitation-based, and interested organizations need to [enrol in a waitlist](https://app.getonepass.eu/invite/rpScuPkmR6) to get access. 
+This pilot program is limited and invitation-based, and interested organizations need to [enrol in a waitlist](https://app.getonepass.eu/invite/rpScuPkmR6) to get access.
 Please, be aware that some eligibility criteria may apply.
 
 ## What will happen after joining the waitlist?

@@ -4,8 +4,10 @@ title: Get in touch with us
 sidebar_label: 'Contact OnePass'
 sidebar_position: 3
 tags:
-  - Contact point
-  - Help desk
+
+- Contact point
+- Help desk
+
  ---
 
 ## Helpdesk
@@ -15,7 +17,8 @@ IA assisstant
 Guides
 
 Support email
-* Technology
-* Sales
-* Administrative
-* Marketing
+
+- Technology
+- Sales
+- Administrative
+- Marketing

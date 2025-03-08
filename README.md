@@ -1,8 +1,5 @@
 # OnePass docs
 
-[![Deploy](https://img.shields.io/badge/passing-black?style=flat&logo=Vercel&label=Vercel&color=3bb92c&labelColor=black)](https://github.com/Cores-ts/onepass.docs/deployments)
-[![GitHub Workflow Status (branch)](https://img.shields.io/badge/passing-black?style=flat&label=build&color=3bb92c)](https://github.com/Cores-ts/onepass.docs/deployments/Production)
-
 OnePass docs, built with Next.js and MDX.
 
 ## How to install

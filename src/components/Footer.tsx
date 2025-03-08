@@ -1,5 +1,5 @@
-import { LogoIcon } from "./Icons";
-import Link from "next/link";
+import { LogoIcon } from "./Icons"
+import Link from "next/link"
 
 export const Footer = () => {
   return (
@@ -112,5 +112,5 @@ export const Footer = () => {
         </h3>
       </section>
     </footer>
-  );
-};
+  )
+}

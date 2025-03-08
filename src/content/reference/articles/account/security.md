@@ -1,17 +1,18 @@
 ---
 id: security
-title: Protect your account and connect to external apps 
+title: Protect your account and connect to external apps
 sidebar_label: 'Security'
 sidebar_position: 5
 tags:
-  - Apps
-  - External services
-  - Third party apps
-  - Linked services
-  - 2 factor authentication
-  - Password change
- ---
 
+- Apps
+- External services
+- Third party apps
+- Linked services
+- 2 factor authentication
+- Password change
+
+ ---
 
 ## Change your passwordç
 
@@ -29,9 +30,11 @@ Keep in mind that the password should have at least 8 characters, including at l
 If you forgot your password, you can also reset it using the "[Forgot your password?](https://crm-testbed.getonepass.eu/forgot-password)" link at the sign-in.
 
 ## 2 factor authentication
+
 Enaabling the two-step authentication will add an extra layer of security to your account.
 
 To a activate the 2 factor authentication, you have to:
+
 - Log in to your OnePass account.
 - Navigate to the "Account Settings" page.
 - Click on the "Security" tab.
@@ -67,12 +70,12 @@ To revoke a third-party app's access to your OnePass Hub account, follow these s
 
 By revoking a third-party app's access to your OnePass Hub account, you ensure that the app can no longer access your account information. It's important to regularly review the third-party apps linked to your account and revoke access for any that are no longer needed. If you encounter any issues during this process, please contact our support team for assistance.
 
-
 ## Linking an Additional IdP
 
 Once you have signed up for OnePass, you may want to link additional identity providers (IdPs) to your account and enable them as login mechanisms. This allows you to sign in using multiple methods, providing flexibility and convenience.
 
 To link an additional IdP to your OnePass account, follow these steps:
+
 - Log in to your OnePass Hub account.
 - Navigate to the "Account Settings" page.
 - Click on the "Security" tab.

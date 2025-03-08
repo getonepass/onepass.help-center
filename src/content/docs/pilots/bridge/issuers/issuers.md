@@ -1,10 +1,12 @@
 
 ## Who is issuing the credentials in Bridge pilot?
+
 The KYC credential will be issued by Walt.id after the holder has completed the self identification process via the IDnow.
 FundingBox will issue the KYB credential via an API on the OnePass platform after the application of the startup has been reviewed and verified.
 Other partners can use the same method as FundingBox or can issue the credentials using their own issuers portal, and follow these steps after the verification of the data provided by the startup.
 
 ## Who can become an issuer?
+
 (Formal and technical requirements)
 Issuer selection: The issuers will be selected by the TAO. During the project, the issuers will be selected by project partners who will be acting as the TAO. The issuer would be selected based on their domain expertise, their reputation and track record, their technical abilities, compliance with data protection regulations and financial viability. In the first phase of the UC, the issuers will be the project partners. Issuer Onboarding: Once an issuer has been selected and approved by the Trusted Accreditor Organization (TAO), they must complete an onboarding process to integrate with the EBSI infrastructure and become a trusted entity on the platform. In the first phase of the project, the issuers to be onboarded will be the project partners FundingBox, Accelerace, BIA, and Walt.id. The onboarding process typically involves the following steps:
 

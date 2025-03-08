@@ -4,11 +4,12 @@ title: How can I set up email alerts on opportunities?
 sidebar_label: 'email alerts'
 sidebar_position: 3
 tags:
-  - Alerts
-  - Opportunities' notification
+
+- Alerts
+- Opportunities' notification
+
  ---
- 
- 
+
 Email alerts are a feature in OnePass Hub that allows registered users to receive weekly emails containing a list of new funding opportunities that match their specific interests. Users can create multiple alerts with different filters to ensure they receive relevant opportunities without having to manually search the site each time.
 
 ## How to Create an Email Alert

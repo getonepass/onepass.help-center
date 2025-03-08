@@ -1,5 +1,5 @@
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
 
 export const Newsletter = () => {
   return (
@@ -32,5 +32,5 @@ export const Newsletter = () => {
 
       <hr className="w-11/12 mx-auto" />
     </section>
-  );
-};
+  )
+}

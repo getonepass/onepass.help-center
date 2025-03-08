@@ -1,16 +1,16 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
-import cubeLeg from "../assets/cube-leg.png";
-import Image from "next/image";
-import { Button } from "./ui/button";
-import { BookOpenText, TvMinimalPlay } from "lucide-react";
-import { Badge } from "./ui/badge";
-import Link from "next/link";
+import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card"
+import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons"
+import cubeLeg from "../assets/cube-leg.png"
+import Image from "next/image"
+import { Button } from "./ui/button"
+import { BookOpenText, TvMinimalPlay } from "lucide-react"
+import { Badge } from "./ui/badge"
+import Link from "next/link"
 interface ServiceProps {
-  title: string;
-  description: JSX.Element | string;
-  icon: JSX.Element | number;
-  href: string;
+  title: string
+  description: JSX.Element | string
+  icon: JSX.Element | number
+  href: string
 }
 
 const serviceList: ServiceProps[] = [
@@ -29,7 +29,8 @@ const serviceList: ServiceProps[] = [
     title: "Choosing a SSI Holder Wallet",
     description: (
       <>
-        A guide to help you choose the right SSI compatible wallet for your needs.
+        A guide to help you choose the right SSI compatible wallet for your
+        needs.
       </>
     ),
     icon: 2,
@@ -38,9 +39,7 @@ const serviceList: ServiceProps[] = [
   {
     title: "Collecting a Credential",
     description: (
-      <>
-        Learn how to collect a verifiable credential from a trusted issuer.
-      </>
+      <>Learn how to collect a verifiable credential from a trusted issuer.</>
     ),
     icon: 3,
     href: "/learn/decentralized-identity/getting-started-onepass-credentials/for-holders/collecting-credential",
@@ -78,7 +77,7 @@ const serviceList: ServiceProps[] = [
     icon: <BookOpenText />,
     href: "/learn/decentralized-identity",
   },
-];
+]
 
 export const Credentials = () => {
   return (
@@ -124,17 +123,17 @@ export const Credentials = () => {
                       <div>
                         <CardTitle>{title}</CardTitle>
                         <CardDescription className="text-md mt-2">
-                          {description} 
+                          {description}
                         </CardDescription>
                       </div>
                     </CardHeader>
                   </Card>
                 </a>
-              )
+              ),
             )}
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

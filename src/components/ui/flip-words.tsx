@@ -1,10 +1,10 @@
-'use client'
+"use client"
 
-import type { TargetAndTransition } from 'framer-motion'
-import { useBreakpoint } from '@/hooks'
-import { cn } from '@/lib/utils'
-import { AnimatePresence, motion } from 'framer-motion'
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import type { TargetAndTransition } from "framer-motion"
+import { useBreakpoint } from "@/hooks"
+import { cn } from "@/lib/utils"
+import { AnimatePresence, motion } from "framer-motion"
+import React, { useCallback, useEffect, useMemo, useState } from "react"
 
 export const FlipWords = ({
   words,
@@ -39,17 +39,17 @@ export const FlipWords = ({
     if (isMd) {
       return {
         opacity: 0,
-        filter: 'blur(0px)',
-        position: 'absolute',
+        filter: "blur(0px)",
+        position: "absolute",
       }
     }
     return {
       opacity: 0,
       y: -40,
       x: 40,
-      filter: 'blur(8px)',
+      filter: "blur(8px)",
       scale: 2,
-      position: 'absolute',
+      position: "absolute",
     }
   }, [isMd])
 
@@ -69,22 +69,22 @@ export const FlipWords = ({
           y: 0,
         }}
         transition={{
-          type: 'spring',
+          type: "spring",
           stiffness: 100,
           damping: 10,
         }}
         exit={motionExit}
         className={cn(
-          'inline-block relative font-bold text-neutral-700 dark:text-neutral-200',
+          "inline-block relative font-bold text-neutral-700 dark:text-neutral-200",
           className,
         )}
         key={currentWord}
       >
-        {currentWord.split('').map((letter, index) => (
+        {currentWord.split("").map((letter, index) => (
           <motion.span
             key={currentWord + index}
-            initial={{ opacity: 0, y: 10, filter: 'blur(8px)' }}
-            animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+            initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
               delay: index * 0.08,
               duration: 0.4,

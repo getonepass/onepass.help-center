@@ -1,20 +1,20 @@
-import { Badge } from "./ui/badge";
+import { Badge } from "./ui/badge"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
-import Image from "next/image";
+} from "@/components/ui/card"
+import image from "../assets/growth.png"
+import image3 from "../assets/reflecting.png"
+import image4 from "../assets/looking-ahead.png"
+import Image from "next/image"
 
 interface FeatureProps {
-  title: string;
-  description: string;
-  image: string;
+  title: string
+  description: string
+  image: string
 }
 
 const features: FeatureProps[] = [
@@ -36,7 +36,7 @@ const features: FeatureProps[] = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     image: image.src,
   },
-];
+]
 
 const featureList: string[] = [
   "Dark/Light theme",
@@ -48,7 +48,7 @@ const featureList: string[] = [
   "Responsive design",
   "Newsletter",
   "Minimalist",
-];
+]
 
 export const Features = () => {
   return (
@@ -92,5 +92,5 @@ export const Features = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

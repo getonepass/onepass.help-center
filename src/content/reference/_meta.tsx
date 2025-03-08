@@ -1,6 +1,6 @@
-import type { MetaRecord } from "nextra";
-import { Badge } from "@/components/ui/badge";
-import { faCirclesOverlap } from "@fortawesome/pro-light-svg-icons";
+import type { MetaRecord } from "nextra"
+import { Badge } from "@/components/ui/badge"
+import { faCirclesOverlap } from "@fortawesome/pro-light-svg-icons"
 import {
   faArrowsToDot,
   faFingerprint,
@@ -8,12 +8,12 @@ import {
   faSquareDashed,
   faVault,
   faSquareRing as lightSquareRing,
-} from "@fortawesome/pro-regular-svg-icons";
+} from "@fortawesome/pro-regular-svg-icons"
 
-import { faSquareRing } from "@fortawesome/pro-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
-import { Search } from "nextra/components";
+import { faSquareRing } from "@fortawesome/pro-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
+import { Search } from "nextra/components"
 export default {
   /*search: {
     title: <Search />,
@@ -36,17 +36,17 @@ export default {
   },
   articles: {
     title: (
-        <h1 className="flex items-center">
-          <FontAwesomeIcon
-            icon={faSquareDashed}
-            size="1x"
-            width="16"
-            style={{ marginRight: ".6em" }}
-          />
-          Articles
-        </h1>
+      <h1 className="flex items-center">
+        <FontAwesomeIcon
+          icon={faSquareDashed}
+          size="1x"
+          width="16"
+          style={{ marginRight: ".6em" }}
+        />
+        Articles
+      </h1>
     ),
     href: "/reference/articles",
   },
-  guides: "Guides"
-} satisfies MetaRecord;
+  guides: "Guides",
+} satisfies MetaRecord

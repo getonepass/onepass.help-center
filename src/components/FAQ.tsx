@@ -3,12 +3,12 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@/components/ui/accordion"
 
 interface FAQProps {
-  question: string;
-  answer: string;
-  value: string;
+  question: string
+  answer: string
+  value: string
 }
 
 const FAQList: FAQProps[] = [
@@ -42,7 +42,7 @@ const FAQList: FAQProps[] = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
     value: "item-5",
   },
-];
+]
 
 export const FAQ = () => {
   return (
@@ -76,5 +76,5 @@ export const FAQ = () => {
         </a>
       </h3>
     </section>
-  );
-};
+  )
+}

@@ -1,8 +1,8 @@
-import { Radar } from "lucide-react";
+import { Radar } from "lucide-react"
 
 interface SponsorProps {
-  icon: JSX.Element;
-  name: string;
+  icon: JSX.Element
+  name: string
 }
 
 const sponsors: SponsorProps[] = [
@@ -34,7 +34,7 @@ const sponsors: SponsorProps[] = [
     icon: <Radar size={34} />,
     name: "Bridge Network",
   },
-];
+]
 
 export const Sponsors = () => {
   return (
@@ -55,5 +55,5 @@ export const Sponsors = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "./ui/button"
 
 export const Cta = () => {
   return (
@@ -28,5 +28,5 @@ export const Cta = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

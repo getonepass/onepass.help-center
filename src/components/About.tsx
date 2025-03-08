@@ -1,6 +1,6 @@
-import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
-import Image from "next/image";
+import { Statistics } from "./Statistics"
+import pilot from "../assets/pilot.png"
+import Image from "next/image"
 
 export const About = () => {
   return (
@@ -36,5 +36,5 @@ export const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

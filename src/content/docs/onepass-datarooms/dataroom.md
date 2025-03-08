@@ -11,13 +11,15 @@ tags:
 
 
 ## Managing your data room
-A data room is a safe space to share information and documents with your potential investors or investees. To create your data room, you will have to be subscribed to a plan that includes this functionality. 
 
-Click on the option "Data room" of the left side main menu to create it. Note that, when creating a data room, some folders will be predefined and the dataroom should be initiated with a text file (readme.md) that will be used as introductory information when sharing it. 
+A data room is a safe space to share information and documents with your potential investors or investees. To create your data room, you will have to be subscribed to a plan that includes this functionality.
 
-To manage it, click on the "gear" icon ("Settings") to change the name and description of your data room (if you wish so) and rememeber to click the "Save changes" button when you finish. 
+Click on the option "Data room" of the left side main menu to create it. Note that, when creating a data room, some folders will be predefined and the dataroom should be initiated with a text file (readme.md) that will be used as introductory information when sharing it.
+
+To manage it, click on the "gear" icon ("Settings") to change the name and description of your data room (if you wish so) and rememeber to click the "Save changes" button when you finish.
 In the settings section, you can also activate/deactivate these addons:
-* File requests 
+
+* File requests
 * Transactions
 * Updates
 * Analytics
@@ -27,14 +29,15 @@ Finally, from the settings, you can also archive or delete a data room here but 
 
 Click on the name of the data room, to go back to its content and the tools to manage it that you will find in the following sections.
 
-
 ### Uploading and organising content in your data room
 
-In the "Content" tab, you will find: 
-* on the left, a search box to find folders or files and a panel including the folders structure (and the files at root level), and 
+In the "Content" tab, you will find:
+
+* on the left, a search box to find folders or files and a panel including the folders structure (and the files at root level), and
 * on the right, a bar with the path of the folder you are navigating and the folder functionalities and, right below, a panel with the list of files included in the folder selected on the left (if selected).
 
 To organise the information in the dataroom, in the three dots to the right of the folders bar, you can:
+
 * Create a new folder: provide a name for the folder an click "Ok" button.
 * Upload a folder: select your folder and click the "Upload" button of the file navigation window.
 * Upload a file: select your file and click the "Upload" button of the file navigation window.
@@ -42,6 +45,7 @@ To organise the information in the dataroom, in the three dots to the right of t
 * Import a file from a URL: type the url where the object is and click the "Ok" button.
 
 Additionally, to manage the files in each folder, you can click on the dots to the right of the file name in the right panel to:
+
 * See file info
 * Open the file (in a new tab, in an editor or in preview)
 * Preview the file
@@ -57,20 +61,15 @@ Additionally, to manage the files in each folder, you can click on the dots to t
 
 You can also order the items in your data room by clicking on the circle with three dots in the upper right corner, choose the option "sort" and select the criteria you want to use for ordering.
 
-
-### Sharing your data room and managing access requests.
-
+### Sharing your data room and managing access requests
 
 ### Create and manage transactions
-
 
 ### Review the activity in your data room
 
 You can also track the activity of your data room in the activity (which is a log of all the actions in the data room, including user and file involved and time) and the analytics (which shows graphic and aggregatted data of the activity for your analisys) tabs of your data room.
 
-
 ### Check the analytics
-
 
 ### Manage access
 

@@ -1,17 +1,17 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/ui/card"
 
 interface TestimonialProps {
-  image: string;
-  name: string;
-  userName: string;
-  comment: string;
+  image: string
+  name: string
+  userName: string
+  comment: string
 }
 
 const testimonials: TestimonialProps[] = [
@@ -57,7 +57,7 @@ const testimonials: TestimonialProps[] = [
     comment:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
-];
+]
 
 export const Testimonials = () => {
   return (
@@ -101,5 +101,5 @@ export const Testimonials = () => {
         )}
       </div>
     </section>
-  );
-};
+  )
+}

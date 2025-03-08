@@ -4,17 +4,19 @@ title: eMail address linked to your OnePass account
 sidebar_label: 'emails'
 sidebar_position: 2
 tags:
-  - Apps
-  - External services
-  - Third party apps
+
+- Apps
+- External services
+- Third party apps
+
  ---
 
-By default, all OnePass users are required to link an email address to their account, which must be verified. Additionally, users may add additional alternate email addresses. If a user wishes to change their primary email address, they must add a new alternate email, verify it, and then remove the old primary email. 
-
+By default, all OnePass users are required to link an email address to their account, which must be verified. Additionally, users may add additional alternate email addresses. If a user wishes to change their primary email address, they must add a new alternate email, verify it, and then remove the old primary email.
 
 ## Linking and Verifying a Primary Email Address
 
 To link and verify a primary email address, follow these steps:
+
 - Log in to your OnePass account.
 - Navigate to the "Account Settings" page.
 - Click on the "Account" option.
@@ -23,10 +25,10 @@ To link and verify a primary email address, follow these steps:
 - Check your email inbox for a verification email from OnePass.
 - Click on the verification link in the email to verify your email address.
 
-
 ## Adding an Alternate Email Address
 
 To add an alternate email address, follow these steps:
+
 - Log in to your OnePass account.
 - Navigate to the "Account Settings" page.
 - Under the "Account" option, enter your email address in the "New email address" field.
@@ -34,10 +36,10 @@ To add an alternate email address, follow these steps:
 - Check your email inbox for a verification email from OnePass.
 - Click on the verification link in the email to verify your email address.
 
-
 ## Changing the Primary Email Address
 
 To change the primary email address, follow these steps:
+
 - Log in to your OnePass account.
 - Navigate to the "Account Settings" page.
 - Under the "Emails" section, add and verify the new email address you wish to use as your primary email.

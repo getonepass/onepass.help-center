@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import * as React from "react"
 import {
@@ -9,53 +9,58 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from '@/components/ui/navigation-menu'
+} from "@/components/ui/navigation-menu"
 
-import { cn } from '@/lib/utils'
-import Link from 'next/link'
-import { GitHubIcon } from 'nextra/icons'
+import { cn } from "@/lib/utils"
+import Link from "next/link"
+import { GitHubIcon } from "nextra/icons"
 
-const components: { title: string, href: string, description: string, icon: string }[] = [
+const components: {
+  title: string
+  href: string
+  description: string
+  icon: string
+}[] = [
   {
-    title: 'Help Center',
-    href: '/reference',
+    title: "Help Center",
+    href: "/reference",
     description:
-      'Find product docs, support articles, guides, and learning resources.',
-    icon: 'help',
+      "Find product docs, support articles, guides, and learning resources.",
+    icon: "help",
   },
   {
-    title: 'Templates',
-    href: '/templates',
+    title: "Templates",
+    href: "/templates",
     description:
-      'Pre-designed templates to help you get started with your project.',
-    icon: 'templates',
+      "Pre-designed templates to help you get started with your project.",
+    icon: "templates",
   },
   {
-    title: 'Lists',
-    href: '/lists',
+    title: "Lists",
+    href: "/lists",
     description:
-      'A list is a collection of items that are related to each other in some way.',
-    icon: 'lists',
+      "A list is a collection of items that are related to each other in some way.",
+    icon: "lists",
   },
   {
-    title: 'Blog',
-    href: '/blog',
-    description: 'A blog is a regularly updated website or web page.',
-    icon: 'blog',
+    title: "Blog",
+    href: "/blog",
+    description: "A blog is a regularly updated website or web page.",
+    icon: "blog",
   },
   {
-    title: 'Events andd Webinars',
-    href: '/docs/primitives/tabs',
+    title: "Events andd Webinars",
+    href: "/docs/primitives/tabs",
     description:
-      'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
-    icon: 'events',
+      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+    icon: "events",
   },
   {
-    title: 'Customer Stories',
-    href: '/docs/primitives/tooltip',
+    title: "Customer Stories",
+    href: "/docs/primitives/tooltip",
     description:
-      'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
-    icon: 'stories',
+      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+    icon: "stories",
   },
 ]
 
@@ -154,7 +159,7 @@ export function NavigationMenuDemo() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-  );
+  )
 }
 
 const ListItem = React.forwardRef<
@@ -168,7 +173,7 @@ const ListItem = React.forwardRef<
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            className,
           )}
           {...props}
         >
@@ -179,7 +184,7 @@ const ListItem = React.forwardRef<
         </a>
       </NavigationMenuLink>
     </li>
-  );
+  )
 })
 
-ListItem.displayName = 'ListItem'
+ListItem.displayName = "ListItem"
