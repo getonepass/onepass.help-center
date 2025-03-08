@@ -47,7 +47,7 @@ const navbar = (
         <h1 className="text-2xl">onepass</h1>
       </>
     }
-    projectLink="https://github.com/Cores-ts/onepass.docs"
+    projectLink="https://github.com/getonepass/onepass.docs"
   >
     <NavigationMenuDemo />
     <ThemeToggle className="max-md:hidden" />
@@ -104,7 +104,7 @@ export default async function RootLayout({ children }) {
             navbar={navbar}
             sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
             pageMap={await getPageMap()}
-            docsRepositoryBase="https://github.com/Cores-ts/onepass.docs/tree/master/docs"
+            docsRepositoryBase="https://github.com/getonepass/onepass.docs/tree/main"
             footer={<Footer />}
             // ... Your additional layout options
           >

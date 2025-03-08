@@ -7,7 +7,7 @@ OnePass docs, built with Next.js and MDX.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Cores-ts/onepass.docs.git
+git clone https://github.com/getonepass/onepass.docs.git
 ```
 
 1. Go into project
