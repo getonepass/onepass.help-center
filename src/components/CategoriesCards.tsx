@@ -61,5 +61,5 @@ export const CategoriesCards = () => {
         </Card>
       </Link>
     </section>
-  );
+  )
 }

@@ -58,7 +58,7 @@ const sponsors: SponsorProps[] = [
     name: "Bridge Network",
     href: "/docs/bridge-network",
   },
-];
+]
 
 export const Sponsors = () => {
   return (
@@ -79,5 +79,5 @@ export const Sponsors = () => {
         ))}
       </div>
     </section>
-  );
+  )
 }
