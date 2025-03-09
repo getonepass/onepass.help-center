@@ -22,15 +22,8 @@ export default function HomepageHero() {
       <Hero />
       <CategoriesCards />
       <Sponsors />
-      <About />
-      <HowItWorks />
-      <Separator className="my-20" />
+      <Separator className="my-10" />
       <Credentials />
-      <Features />
-      <Services />
-      <Cta />
-      <Newsletter />
-      <FAQ />
     </>
   )
 }

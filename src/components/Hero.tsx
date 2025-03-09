@@ -9,21 +9,20 @@ const popularSearches: string[] = [
   "Sign up",
   "Verifiable credentials",
   "Pitch relay",
-  "Documents HUB",
   "Verifications",
   "Decentralized Identity",
 ]
 
 export const Hero = () => {
   return (
-    <section className="container w-[70cqw] grid lg:grid-cols-1 place-items-center py-20 md:py-32 gap-10">
+    <section className="container w-[70cqw] grid lg:grid-cols-1 place-items-center pt-40 md:pt-40 pb-10 md:pb-10 gap-10">
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
-          <h1 className="inline">Get the help you need</h1>
+          <h1 className="inline">OnePass Help Center</h1>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Find product docs, support articles, guides, and learning resources
+          Find product docs, support articles, guides, and learning resources.
         </p>
 
         <p className="text text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
@@ -49,33 +48,6 @@ export const Hero = () => {
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           <hr />
-        </div>
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Link
-            href="#"
-            className={`w-full md:w-1/3 h-12 ${buttonVariants({
-              variant: "default",
-            })}`}
-          >
-            <IconRocket
-              size="32px"
-              style={{ marginRight: "0.5rem", height: "32px" }}
-            />
-            Launch Demo
-          </Link>
-
-          <Link
-            href="/docs"
-            className={`w-full md:w-1/3 h-12 ${buttonVariants({
-              variant: "outline",
-            })}`}
-          >
-            <IconLibrary
-              size="24px"
-              style={{ marginRight: "0.5rem", height: "32px" }}
-            />
-            Read the docs
-          </Link>
         </div>
       </div>
     </section>
