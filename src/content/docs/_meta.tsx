@@ -14,7 +14,17 @@ import { faSquareRing } from "@fortawesome/pro-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default {
-  index: "Introduction",
+  index: {
+    title: "OnePass Documentation",
+    theme: {
+      toc: false,
+      breadcrumb: true,
+      timestamp: false,
+      layout: "full",
+      pagination: false,
+      sidebar: false,
+    },
+  },
   "onepass-ecosystem": "OnePass Ecosystem Overview",
   "-": {
     type: "separator",

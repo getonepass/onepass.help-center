@@ -9,16 +9,17 @@ export default {
       layout: "full",
       toc: false,
       typesetting: "default",
+      sidebar: false,
+      breadcrumb: false,
     },
-  },
-  reference: {
-    title: "Reference",
-    type: "page",
   },
   articles: {
     title: "Articles",
     type: "page",
-    href: "/reference/articles",
+  },
+  guides: {
+    title: "Guides",
+    type: "page",
   },
   docs: {
     title: "Docs",

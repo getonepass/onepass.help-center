@@ -18,7 +18,8 @@ export const Hero = () => {
     <section className="container w-[70cqw] grid lg:grid-cols-1 place-items-center pt-40 md:pt-40 pb-10 md:pb-10 gap-10">
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
-          <h1 className="inline">OnePass Help Center</h1>
+          <h2 className="text-[20px]/20 font-bold">OnePass Help Center</h2>
+          <h1>What can we help you find?</h1>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">

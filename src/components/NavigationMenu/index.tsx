@@ -13,7 +13,7 @@ import {
 
 import { cn } from "@/lib/utils"
 import Link from "next/link"
-import { GitHubIcon } from "nextra/icons"
+import { LifeBuoy } from "lucide-react"
 
 const components: {
   title: string
@@ -23,7 +23,7 @@ const components: {
 }[] = [
   {
     title: "Help Center",
-    href: "/reference",
+    href: "/",
     description:
       "Find product docs, support articles, guides, and learning resources.",
     icon: "help",
@@ -69,47 +69,16 @@ export function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Platform</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Help Center</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3">
+              <li className="row-span-4">
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <GitHubIcon className="h-6 w-6" />
-                    <div className="mb-2 mt-4 text-lg font-medium">OnePass</div>
-                    <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
-                    </p>
-                  </a>
-                </NavigationMenuLink>
-              </li>
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
-              </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Help Center</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3">
-                <NavigationMenuLink asChild>
-                  <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/reference"
-                  >
-                    <GitHubIcon className="h-6 w-6" />
+                    <LifeBuoy className="h-6 w-6" />
                     <div className="mb-2 mt-4 text-lg font-medium">
                       Help Center
                     </div>
@@ -120,14 +89,17 @@ export function NavigationMenuDemo() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/reference/articles" title="Reference">
-                Essential features explained and support articles.
+              <ListItem href="/articles" title="Support articles">
+                Support articles and answers to common questions.
+              </ListItem>
+              <ListItem href="/guides" title="Guides">
+                Step by step guides and essential features explained.
               </ListItem>
               <ListItem href="/docs" title="Products docs">
-                OnePass Products documentation and guides.
+                OnePass Products documentation.
               </ListItem>
               <ListItem href="/learn" title="Learning resources">
-                Learning resources and tutorials to get started.
+                Additional learning resources and guides.
               </ListItem>
             </ul>
           </NavigationMenuContent>
@@ -147,13 +119,6 @@ export function NavigationMenuDemo() {
               ))}
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
-            </NavigationMenuLink>
-          </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

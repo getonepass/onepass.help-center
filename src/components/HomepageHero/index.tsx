@@ -1,5 +1,3 @@
-"use client"
-
 import { Hero } from "@/components/Hero"
 import { CategoriesCards } from "@/components/CategoriesCards"
 import { Credentials } from "@/components/Credentials"
@@ -15,6 +13,7 @@ import { Team } from "@/components/Team"
 import { Pricing } from "@/components/Pricing"
 import { Newsletter } from "@/components/Newsletter"
 import { Separator } from "@/components/ui/separator"
+import { ArticlesCards } from "@/components/PageMap"
 
 export default function HomepageHero() {
   return (
@@ -22,8 +21,12 @@ export default function HomepageHero() {
       <Hero />
       <CategoriesCards />
       <Sponsors />
-      <Separator className="my-10" />
-      <Credentials />
+      <Separator className="my-20" />
+      <h2 className="text-4xl font-bold text-center">Guides</h2>
+      <ArticlesCards route="/guides" />
+      <Separator className="my-20" />
+      <h2 className="text-4xl font-bold text-center">Support Topics</h2>
+      <ArticlesCards route="/articles" />
     </>
   )
 }

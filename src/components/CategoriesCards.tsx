@@ -6,23 +6,39 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card"
-import { BookText, BookOpenText, GraduationCap } from "lucide-react"
+import { BookText, BookOpenText, GraduationCap, Signpost } from "lucide-react"
 import Link from "next/link"
 
 export const CategoriesCards = () => {
   return (
-    <section className="container w-[80cqw] grid lg:grid-cols-3 gap-5">
-      {/* Reference */}
-      <Link href="/reference">
+    <section className="container w-[90cqw] grid lg:grid-cols-4 gap-5">
+      {/* Articles */}
+      <Link href="/articles">
         <Card>
           <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-3">
             <div>
               <BookText />
             </div>
             <div>
-              <CardTitle>Reference</CardTitle>
+              <CardTitle>Support articles</CardTitle>
               <CardDescription className="text-md mt-2">
-                Essential features explained and support articles.
+                Support articles and answers to common questions.
+              </CardDescription>
+            </div>
+          </CardHeader>
+        </Card>
+      </Link>
+      {/* Guides */}
+      <Link href="/guides">
+        <Card>
+          <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-3">
+            <div>
+              <Signpost />
+            </div>
+            <div>
+              <CardTitle>Guides</CardTitle>
+              <CardDescription className="text-md mt-2">
+                Step by step guides and essential features explained.
               </CardDescription>
             </div>
           </CardHeader>
@@ -38,7 +54,7 @@ export const CategoriesCards = () => {
             <div>
               <CardTitle>Docs</CardTitle>
               <CardDescription className="text-md mt-2">
-                OnePass Products documentation and guides.
+                OnePass Products documentation.
               </CardDescription>
             </div>
           </CardHeader>
@@ -54,7 +70,7 @@ export const CategoriesCards = () => {
             <div>
               <CardTitle>Learn</CardTitle>
               <CardDescription className="text-md mt-2">
-                Learning resources and tutorials to get started.
+                Additional learning resources and guides.
               </CardDescription>
             </div>
           </CardHeader>

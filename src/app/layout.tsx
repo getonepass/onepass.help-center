@@ -57,7 +57,8 @@ const navbar = (
 // @ts-expect-error 123123213
 export default async function RootLayout({ children }) {
   const title = "OnePass Help Center"
-  const description = "Help and Resources"
+  const description =
+    "Find product docs, support articles, guides, and learning resources."
 
   return (
     <html
