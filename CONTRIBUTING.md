@@ -41,7 +41,7 @@ Welcome to the OnePass Knowledge Base (KB) repository! This guide ensures all ar
   I can’t log in because I forgot my password.
 
   ## Solution
-  1. Go to the [Login Page](https://onepass.example.com).
+  1. Go to the [Login Page](https://getonepass.eu).
   2. Click **Forgot Password**.
   3. Enter your registered email and follow the instructions.
   4. Check your inbox for a reset link.
@@ -87,7 +87,7 @@ Welcome to the OnePass Knowledge Base (KB) repository! This guide ensures all ar
   - Basic company information.
 
   ## Steps
-  1. Visit [OnePass Registration](https://onepass.example.com).
+  1. Visit [OnePass Registration](https://getonepass.eu).
   2. Click **Sign Up** and fill in the details.
   3. Verify your email.
   4. Complete the startup profile setup.
@@ -156,7 +156,7 @@ Welcome to the OnePass Knowledge Base (KB) repository! This guide ensures all ar
   - **Bold:** Important actions, UI elements (`Click **Submit**`).
   - *Italics:* Emphasis, notes, or alternative terms (`Also known as *Multi-Factor Authentication*`).
 - **Code Blocks:** Use triple backticks (` ``` `) for code snippets.
-- **Links:** Use `[Title](URL)` format (e.g., `[OnePass Homepage](https://onepass.example.com)`).
+- **Links:** Use `[Title](URL)` format (e.g., `[OnePass Homepage](https://getonepass.eu)`).
 - **Images:**
   - Store assets in `/assets/images/`.
   - Reference with `![Alt text](/assets/images/example.png)`.
@@ -171,6 +171,6 @@ Welcome to the OnePass Knowledge Base (KB) repository! This guide ensures all ar
 3. Submit a **pull request (PR)** with a clear description.
 4. A reviewer will approve or request changes.
 
-For questions, reach out via [support@example.com](mailto:support@example.com).
+For questions, reach out via [support@getonepass.eu](mailto:support@getonepass.eu).
 
 🚀 **Thank you for contributing to OnePass Knowledge Base!**
