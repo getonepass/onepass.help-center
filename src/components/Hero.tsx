@@ -19,7 +19,7 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h2 className="text-[20px]/20 font-bold">OnePass Help Center</h2>
-          <h1>What can we help you find?</h1>
+          <h1 className="inline">What can we help you find?</h1>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">

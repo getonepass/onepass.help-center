@@ -3,9 +3,9 @@ article{
       margin-top: 30px;
     }
     main{
-      h1{
+      > h1:not(.inline){
         max-width: 70%;
-        font-size: 3em;;
+        font-size: 3em;
       }
     }
 }
