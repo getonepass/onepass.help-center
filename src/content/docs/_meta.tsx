@@ -22,7 +22,7 @@ export default {
       timestamp: false,
       layout: "full",
       pagination: false,
-      sidebar: false,
+      sidebar: true,
     },
   },
   "onepass-ecosystem": "OnePass Ecosystem Overview",

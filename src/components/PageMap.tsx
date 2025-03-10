@@ -118,3 +118,46 @@ export const ArticlesCards = async ({ route }: ArticlesCardsProps) => {
     </div>
   )
 }
+
+export const ArticlesCardsList = async ({ route }: ArticlesCardsProps) => {
+  const posts = await getPosts(route)
+  const serviceList = posts
+  const index = 1
+  return (
+    <div className="mt-[60px] grid gap-y-3 md:grid-cols-2 md:gap-6 lg:mt-[60px] lg:grid-cols-1">
+      {serviceList.map(
+        ({ name, route, title, type, children, frontMatter }: ServiceProps) => (
+          <Link key={route} href={route}>
+            <Card>
+              <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
+                <Button variant="outline" size="icon">
+                  {frontMatter?.icon ||
+                    (() => {
+                      if (children?.length) return <BookText />
+                      if (frontMatter?.asIndexPage) return <Folder />
+                      switch (type) {
+                        case "doc":
+                          return <FileText /> // book
+                        case "page":
+                          return <BookText /> // folder
+                        case "guide":
+                          return <TvMinimalPlay /> // video
+                        default:
+                          return <FileText /> // article
+                      }
+                    })()}
+                </Button>
+                <div>
+                  <CardTitle>{title}</CardTitle>
+                  <CardDescription className="text-md mt-2">
+                    {frontMatter?.description}
+                  </CardDescription>
+                </div>
+              </CardHeader>
+            </Card>
+          </Link>
+        ),
+      )}
+    </div>
+  )
+}

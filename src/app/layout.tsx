@@ -15,6 +15,8 @@ import localFont from "next/font/local"
 import { ThemeProvider } from "./_components/ThemeProvider"
 
 import "./styles/index.css"
+import "./layout.css"
+import "./styles/md.css"
 
 export const metadata = {
   // Define your metadata here
