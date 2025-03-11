@@ -7,13 +7,13 @@ Welcome to the **OnePass Knowledge Base (KB)** repository! This repository hosts
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/getonepass/onepass.docs.git
+git clone https://github.com/getonepass/onepass.help-center.git
 ```
 
 1. Go into project
 
 ```bash
-cd onepass.docs
+cd onepass.help-center
 ```
 
 1. Install dependencies
@@ -34,6 +34,7 @@ This repository contains:
 
 - **Support Articles** – FAQs and troubleshooting guides.
 - **Guides & Tutorials** – Step-by-step instructions for using OnePass products.
+- **Products Documentation** – Products and features documentation.
 - **Technical Documentation** – API references and developer resources.
 
 All contributions should follow the [Contribution Guidelines](CONTRIBUTING.md).
@@ -44,10 +45,11 @@ All contributions should follow the [Contribution Guidelines](CONTRIBUTING.md).
 📂 src/content/
  ├── 📂 articles/      # Support articles
  ├── 📂 guides/        # How-to guides & tutorials
- ├── 📂 docs/          # Technical documentation
+ ├── 📂 docs/          # Products documentation
+ ├── 📂 developer/     # Technical documentation
  ├── 📂 assets/        # Images and media files
- ├── README.md        # Repository overview
- ├── CONTRIBUTING.md  # Contribution guidelines
+ ├── README.md         # Repository overview
+ ├── CONTRIBUTING.md   # Contribution guidelines
 ```
 
 ## 🛠 Contribution Guidelines

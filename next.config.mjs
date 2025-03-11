@@ -6,7 +6,7 @@ const withNextra = nextra({
 })
 
 const isProduction = process.env.NODE_ENV === "production"
-const repositoryName = "onepass.docs"
+const repositoryName = "onepass.help-center"
 const assetPrefix = isProduction ? `/${repositoryName}` : "" // Just if deployed as org.github.io/repo
 
 export default withNextra({
