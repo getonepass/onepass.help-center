@@ -22,7 +22,7 @@ export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
   metadataBase: new URL("https://help.getonepass.eu"),
-  icons: "/img/favicon.svg",
+  icons: "/favicon.ico",
 } satisfies Metadata
 
 const fontSans = localFont({
@@ -46,12 +46,11 @@ const navbar = (
           className="mr-2"
           alt="Logo"
         />
-        <h1 className="text-2xl">onepass</h1>
+        <h1 className="text-2xl">OnePass Help Center</h1>
       </>
     }
     projectLink="https://github.com/getonepass/onepass.docs"
   >
-    <NavigationMenuDemo />
     <ThemeToggle className="max-md:hidden" />
   </Navbar>
 )
