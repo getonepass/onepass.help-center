@@ -97,6 +97,7 @@ export default {
       </h1>
     ),
   },
+  /*
   "onepass-hub": {
     title: (
       <span className="flex items-center">
@@ -109,7 +110,7 @@ export default {
         OnePass HUB
       </span>
     ),
-  },
+  },*/
   "onepass-bridge": {
     title: (
       <span className="flex items-center">

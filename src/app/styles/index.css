@@ -226,6 +226,18 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --x-color-slate-50: white;
+    --x-color-slate-100: white;
+    --x-color-slate-200: white;
+    --x-color-slate-300: white;
+    --x-color-slate-400: white;
+    --x-color-slate-500: white;
+    --x-color-slate-600: white;
+    --x-color-slate-700: white;
+    --x-color-slate-800: white;
+    --x-color-slate-900: white;
+    --x-color-slate-950: white;
   }
 }
 

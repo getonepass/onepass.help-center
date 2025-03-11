@@ -6,7 +6,6 @@ import { useTheme } from "nextra-theme-docs"
 import { useCallback } from "react"
 import { Moon, Sun } from "lucide-react"
 
-
 export default function ThemeToggle({ className }: { className?: string }) {
   const { setTheme, theme } = useTheme()
 

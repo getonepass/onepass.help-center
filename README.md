@@ -40,7 +40,7 @@ All contributions should follow the [Contribution Guidelines](CONTRIBUTING.md).
 
 ## 📂 Folder Structure
 
-```
+```text
 📂 src/content/
  ├── 📂 articles/      # Support articles
  ├── 📂 guides/        # How-to guides & tutorials

@@ -66,23 +66,25 @@ export const ArticlesCards = async ({ route }: ArticlesCardsProps) => {
         ({ name, route, title, type, children, frontMatter }: ServiceProps) => (
           <Card key={name} className="h-full flex flex-col">
             <CardHeader className="flex-1">
-              <Button variant="outline" size="icon">
-                {frontMatter?.icon ||
-                  (() => {
-                    if (children?.length) return <BookText />
-                    if (frontMatter?.asIndexPage) return <Folder />
-                    switch (type) {
-                      case "doc":
-                        return <FileText /> // book
-                      case "page":
-                        return <BookText /> // folder
-                      case "guide":
-                        return <TvMinimalPlay /> // video
-                      default:
-                        return <FileText /> // article
-                    }
-                  })()}
-              </Button>
+              <Link href={route}>
+                <Button variant="outline" size="icon">
+                  {frontMatter?.icon ||
+                    (() => {
+                      if (children?.length) return <BookText />
+                      if (frontMatter?.asIndexPage) return <Folder />
+                      switch (type) {
+                        case "doc":
+                          return <FileText /> // book
+                        case "page":
+                          return <BookText /> // folder
+                        case "guide":
+                          return <TvMinimalPlay /> // video
+                        default:
+                          return <FileText /> // article
+                      }
+                    })()}
+                </Button>
+              </Link>
               <div className="mt-3">
                 <CardTitle className="text-lg">
                   <Link href={route}>{title}</Link>
