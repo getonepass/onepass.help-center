@@ -24,6 +24,7 @@ export default {
   docs: {
     title: "Docs",
     type: "page",
+    href: "/docs/product",
   },
   learn: {
     title: "Learn",
