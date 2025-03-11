@@ -31,6 +31,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Needed for showLastUpdateTime to work
+          submodules: recursive
       - name: Detect package manager
         id: detect-package-manager
         run: |

@@ -13,7 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0 # Needed for showLastUpdateTime to work
+          submodules: recursive
       - name: Setup yarn
         uses: actions/setup-node@v4
         with:
