@@ -11,7 +11,7 @@ import Link from "next/link"
 
 export const CategoriesCards = () => {
   return (
-    <section className="container w-[90cqw] grid lg:grid-cols-4 gap-5">
+    <section className="container w-[90cqw] grid lg:grid-cols-3 gap-5">
       {/* Articles */}
       <Link href="/articles">
         <Card>
@@ -39,22 +39,6 @@ export const CategoriesCards = () => {
               <CardTitle>Guides</CardTitle>
               <CardDescription className="text-md mt-2">
                 Step by step guides and essential features explained.
-              </CardDescription>
-            </div>
-          </CardHeader>
-        </Card>
-      </Link>
-      {/* Docs */}
-      <Link href="/docs">
-        <Card>
-          <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-3">
-            <div>
-              <BookOpenText />
-            </div>
-            <div>
-              <CardTitle>Docs</CardTitle>
-              <CardDescription className="text-md mt-2">
-                OnePass Products documentation.
               </CardDescription>
             </div>
           </CardHeader>

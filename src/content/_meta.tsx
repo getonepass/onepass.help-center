@@ -21,11 +21,6 @@ export default {
     title: "Guides",
     type: "page",
   },
-  docs: {
-    title: "Docs",
-    type: "page",
-    href: "/docs/product",
-  },
   learn: {
     title: "Learn",
     type: "menu",

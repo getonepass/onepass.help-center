@@ -93,11 +93,6 @@ export const ArticlesCards = async ({ route }: ArticlesCardsProps) => {
                   <span className="mt-2 overflow-hidden text-ellipsis line-clamp-2 min-h-[40px]">
                     {frontMatter?.description}
                   </span>
-                  <span className="text-sm mt-2">
-                    <Badge variant="secondary" className="text-sm">
-                      {type}
-                    </Badge>
-                  </span>
                 </CardDescription>
               </div>
             </CardHeader>

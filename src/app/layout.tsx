@@ -6,7 +6,7 @@ import type { Metadata } from "next"
 import { NavigationMenuDemo } from "@/components/NavigationMenu"
 import ThemeToggle from "@/widgets/theme-toggle"
 import { cn } from "@/lib/utils"
-
+import { Globe } from "lucide-react"
 import logo from "../assets/icon.ico"
 import Image from "next/image"
 import { Footer } from "@/components/Footer"
@@ -37,23 +37,24 @@ const fontHeading = localFont({
 })
 
 const navbar = (
-  <Navbar
-    logo={
-      <>
-        <Image
-          width={36}
-          height={36}
-          src={logo.src}
-          className="mr-2"
-          alt="Logo"
-        />
-        <h1 className="text-xl">OnePass Help Center</h1>
-      </>
-    }
-    projectLink="https://github.com/getonepass/onepass.help-center"
-  >
-    <ThemeToggle className="max-md:hidden" />
-  </Navbar>
+	<Navbar
+		logo={
+			<>
+				<Image
+					width={36}
+					height={36}
+					src={logo.src}
+					className="mr-2"
+					alt="Logo"
+				/>
+				<h1 className="text-xl">OnePass Help Center</h1>
+			</>
+		}
+		projectLink="https://getonepass.eu"
+		projectIcon= {<Globe />}
+	>
+		<ThemeToggle className="max-md:hidden" />
+	</Navbar>
 )
 
 export default async function RootLayout({
