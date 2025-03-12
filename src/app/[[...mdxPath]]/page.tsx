@@ -1,6 +1,5 @@
 import { useMDXComponents } from "@/mdx-components"
 import { generateStaticParamsFor, importPage } from "nextra/pages"
-
 export const generateStaticParams = generateStaticParamsFor("mdxPath")
 
 export async function generateMetadata(props: PageProps) {
@@ -9,6 +8,7 @@ export async function generateMetadata(props: PageProps) {
   return metadata
 }
 
+// Define global variable for repository URL
 type PageProps = Readonly<{
   params: Promise<{
     mdxPath: string[]

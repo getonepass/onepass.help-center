@@ -13,10 +13,11 @@ import { Footer } from "@/components/Footer"
 import { Inter as FontSans } from "next/font/google"
 import localFont from "next/font/local"
 import { ThemeProvider } from "./_components/ThemeProvider"
-
 import "./styles/index.css"
 import "./layout.css"
 import "./styles/md.css"
+
+const REPO_URL = "https://github.com/getonepass/onepass.help-center/tree/main"
 
 export const metadata = {
   // Define your metadata here
@@ -55,12 +56,14 @@ const navbar = (
   </Navbar>
 )
 
-// @ts-expect-error 123123213
-export default async function RootLayout({ children }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   const title = "OnePass Help Center"
   const description =
     "Find product docs, support articles, guides, and learning resources."
-
   return (
     <html
       // Not required, but good for SEO
@@ -106,7 +109,11 @@ export default async function RootLayout({ children }) {
             navbar={navbar}
             sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
             pageMap={await getPageMap()}
-            docsRepositoryBase="https://github.com/getonepass/onepass.help-center/tree/main"
+            docsRepositoryBase={
+              REPO_URL
+                ? REPO_URL
+                : "https://github.com/getonepass/onepass.help-center/tree/main"
+            }
             footer={<Footer />}
             // ... Your additional layout options
           >
