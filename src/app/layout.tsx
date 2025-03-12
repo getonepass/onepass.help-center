@@ -64,7 +64,7 @@ export default async function RootLayout({
 }) {
   const title = "OnePass Help Center"
   const description =
-    "Find product docs, support articles, guides, and learning resources."
+    "Find support articles, guides, and learning resources."
   return (
     <html
       // Not required, but good for SEO
