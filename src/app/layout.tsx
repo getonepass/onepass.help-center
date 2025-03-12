@@ -13,9 +13,13 @@ import { Footer } from "@/components/Footer"
 import { Inter as FontSans } from "next/font/google"
 import localFont from "next/font/local"
 import { ThemeProvider } from "./_components/ThemeProvider"
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
 import "./styles/index.css"
 import "./layout.css"
 import "./styles/md.css"
+
+config.autoAddCss = false
 
 const REPO_URL = "https://github.com/getonepass/onepass.help-center/tree/main"
 
@@ -29,6 +33,11 @@ export const metadata = {
 const fontSans = localFont({
   src: "../assets/fonts/AvenirLTStd-Medium.woff",
   variable: "--font-sans",
+})
+
+const fontSansBold = localFont({
+  src: "../assets/fonts/AvenirLTStd-Heavy.woff",
+  variable: "--font-sans-bold",
 })
 
 const fontHeading = localFont({
@@ -94,6 +103,7 @@ export default async function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable,
+          fontSansBold.variable,
           fontHeading.variable,
         )}
       >
