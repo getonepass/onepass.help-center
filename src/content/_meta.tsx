@@ -16,10 +16,16 @@ export default {
   articles: {
     title: "Articles",
     type: "page",
+    display: "hidden",
   },
   guides: {
     title: "Guides",
     type: "page",
+  },
+  docs: {
+    title: "Docs",
+    type: "page",
+    display: "hidden",
   },
   learn: {
     title: "Learn",
@@ -31,4 +37,4 @@ export default {
       },
     },
   },
-} satisfies MetaRecord
+} satisfies MetaRecord;

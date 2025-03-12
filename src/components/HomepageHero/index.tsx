@@ -13,7 +13,7 @@ import { Team } from "@/components/Team"
 import { Pricing } from "@/components/Pricing"
 import { Newsletter } from "@/components/Newsletter"
 import { Separator } from "@/components/ui/separator"
-import { ArticlesCards } from "@/components/PageMap"
+import { ArticlesCards, ArticlesCardsList } from "@/components/PageMap"
 
 export default function HomepageHero() {
   return (
@@ -24,8 +24,8 @@ export default function HomepageHero() {
       <h2 className="text-4xl font-bold text-center">Guides</h2>
       <ArticlesCards route="/guides" />
       <Separator className="my-20" />
-      <h2 className="text-4xl font-bold text-center">Support Topics</h2>
-      <ArticlesCards route="/articles" />
+      <h2 className="text-4xl font-bold text-center">Additional resources</h2>
+      <ArticlesCardsList route="/learn" />
     </>
   )
 }
