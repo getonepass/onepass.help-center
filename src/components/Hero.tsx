@@ -13,11 +13,13 @@ export const Hero = () => {
           Find product docs, support articles, guides, and learning resources.
         </p>
         <div className="space-y-4 md:space-y-0 md:space-x-4 flex z-2">
-          <Search className="scale-150 origin-left" placeholder="Search for a topic or question"/>
+          <Search
+            className="scale-150 origin-left"
+            placeholder="Search for a topic or question"
+          />
         </div>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-        </div>
+        <div className="space-y-4 md:space-y-0 md:space-x-4"></div>
       </div>
     </section>
   )

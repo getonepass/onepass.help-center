@@ -37,24 +37,24 @@ const fontHeading = localFont({
 })
 
 const navbar = (
-	<Navbar
-		logo={
-			<>
-				<Image
-					width={36}
-					height={36}
-					src={logo.src}
-					className="mr-2"
-					alt="Logo"
-				/>
-				<h1 className="text-xl">OnePass Help Center</h1>
-			</>
-		}
-		projectLink="https://getonepass.eu"
-		projectIcon= {<Globe />}
-	>
-		<ThemeToggle className="max-md:hidden" />
-	</Navbar>
+  <Navbar
+    logo={
+      <>
+        <Image
+          width={36}
+          height={36}
+          src={logo.src}
+          className="mr-2"
+          alt="Logo"
+        />
+        <h1 className="text-xl">OnePass Help Center</h1>
+      </>
+    }
+    projectLink="https://getonepass.eu"
+    projectIcon={<Globe />}
+  >
+    <ThemeToggle className="max-md:hidden" />
+  </Navbar>
 )
 
 export default async function RootLayout({
