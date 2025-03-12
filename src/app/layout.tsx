@@ -63,8 +63,7 @@ export default async function RootLayout({
   children: React.ReactNode
 }) {
   const title = "OnePass Help Center"
-  const description =
-    "Find support articles, guides, and learning resources."
+  const description = "Find support articles, guides, and learning resources."
   return (
     <html
       // Not required, but good for SEO
