@@ -37,4 +37,4 @@ export default {
       },
     },
   },
-} satisfies MetaRecord;
+} satisfies MetaRecord

@@ -33,5 +33,5 @@ export default function HomepageHero() {
       </p>
       <ArticlesCardsList route="/learn" />
     </>
-  );
+  )
 }

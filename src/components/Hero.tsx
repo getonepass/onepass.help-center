@@ -22,5 +22,5 @@ export const Hero = () => {
         <div className="space-y-4 md:space-y-0 md:space-x-4"></div>
       </div>
     </section>
-  );
+  )
 }
