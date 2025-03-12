@@ -22,10 +22,16 @@ export default function HomepageHero() {
       <CategoriesCards />
       <Separator className="my-20" />
       <h2 className="text-4xl font-bold text-center">Guides</h2>
+      <p className="my-5 text-center">
+        Step by step guides and essential features explained.
+      </p>
       <ArticlesCards route="/guides" />
       <Separator className="my-20" />
-      <h2 className="text-4xl font-bold text-center">Additional resources</h2>
+      <h2 className="text-4xl font-bold text-center">Learn</h2>
+      <p className="my-5 text-center">
+        Additional learning resources and guides.
+      </p>
       <ArticlesCardsList route="/learn" />
     </>
-  )
+  );
 }
