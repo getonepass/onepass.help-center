@@ -25,6 +25,16 @@ export const Footer = () => {
           <h3 className="font-bold text-lg">Social</h3>
           <div>
             <a
+              href="https://linkedin.com/company/getonepass"
+              className="opacity-60 hover:opacity-100"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div>
+            <a
               href="https://github.com/getonepass"
               className="opacity-60 hover:opacity-100"
               target="_blank"
@@ -33,7 +43,6 @@ export const Footer = () => {
               Github
             </a>
           </div>
-
           <div>
             <a
               href="https://x.com/OnePass_"
@@ -42,17 +51,6 @@ export const Footer = () => {
               rel="noreferrer"
             >
               X
-            </a>
-          </div>
-
-          <div>
-            <a
-              href="https://linkedin.com/company/getonepass"
-              className="opacity-60 hover:opacity-100"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
             </a>
           </div>
         </div>
@@ -64,13 +62,6 @@ export const Footer = () => {
               Guides
             </a>
           </div>
-
-          <div>
-            <a href="/articles" className="opacity-60 hover:opacity-100">
-              Support articles
-            </a>
-          </div>
-
           <div>
             <a href="/learn" className="opacity-60 hover:opacity-100">
               Learn

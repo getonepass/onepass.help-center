@@ -398,3 +398,7 @@ h8,
 h9 {
   @apply font-heading;
 }
+
+strong, b{
+  font-family: var(--font-sans-bold);
+}

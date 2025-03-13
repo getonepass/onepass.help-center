@@ -24,8 +24,7 @@ const components: {
   {
     title: "Help Center",
     href: "/",
-    description:
-      "Find product docs, support articles, guides, and learning resources.",
+    description: "Find support articles, guides, and learning resources.",
     icon: "help",
   },
   {
@@ -83,8 +82,7 @@ export function NavigationMenuDemo() {
                       Help Center
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Find product docs, support articles, guides, and learning
-                      resources.
+                      Find support articles, guides, and learning resources.
                     </p>
                   </a>
                 </NavigationMenuLink>
