@@ -104,20 +104,20 @@ export const ArticlesCards = async ({ route }: ArticlesCardsProps) => {
             </CardHeader>
             <CardContent>
               {children?.slice(0, 5).map((child) => (
-              <div key={child.title}>
-                {route ? (
-                <Link href={child.route}>
-                  <CardDescription>{child.title}</CardDescription>
-                </Link>
-                ) : (
-                <CardDescription>{child.title}</CardDescription>
-                )}
-              </div>
+                <div key={child.title}>
+                  {route ? (
+                    <Link href={child.route}>
+                      <CardDescription>{child.title}</CardDescription>
+                    </Link>
+                  ) : (
+                    <CardDescription>{child.title}</CardDescription>
+                  )}
+                </div>
               ))}
               {children && children.length > 5 && (
-              <CardDescription className="mt-2 text-sm text-muted-foreground">
-                + {children.length - 5} more articles
-              </CardDescription>
+                <CardDescription className="mt-2 text-sm text-muted-foreground">
+                  + {children.length - 5} more articles
+                </CardDescription>
               )}
             </CardContent>
           </Card>
