@@ -397,8 +397,14 @@ h7,
 h8,
 h9 {
   @apply font-heading;
+  strong,
+    b {
+      font-family: var(--font-heading)!important;
+      color: oklch(0.37 0.04 261.26) !important;
+    }
 }
 
 strong, b{
   font-family: var(--font-sans-bold);
 }
+
