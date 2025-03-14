@@ -4,31 +4,31 @@ Welcome to the **OnePass Knowledge Base (KB)** repository! This repository hosts
 
 ## How to install
 
-1. Clone this repository:
+### Clone this repository
 
 ```bash
 git clone https://github.com/getonepass/onepass.help-center.git
 ```
 
-2. Go into project
+### Go into project
 
 ```bash
 cd onepass.help-center
 ```
 
-3. Initialize submodules
+### Initialize submodules
 
 ```bash
 git submodule update --init 
 ```
 
-4. Install dependencies
+### Install dependencies
 
 ```bash
 yarn
 ```
 
-5. Run project
+### Run project
 
 ```bash
 yarn dev
