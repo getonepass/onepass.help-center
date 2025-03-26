@@ -14,3 +14,7 @@
 	path = src/content/docs/product
 	url = https://github.com/getonepass/onepass.product.docs
 	branch = main
+[submodule "src/content/legal"]
+	path = src/content/legal
+	url = https://github.com/getonepass/onepass.legal.docs
+	branch = main
