@@ -37,4 +37,9 @@ export default {
       },
     },
   },
-} satisfies MetaRecord
+  legal: {
+    title: "Legal",
+    type: "page",
+    display: "hidden",
+  },
+} satisfies MetaRecord;
