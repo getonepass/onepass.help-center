@@ -42,4 +42,4 @@ export default {
     type: "page",
     display: "hidden",
   },
-} satisfies MetaRecord;
+} satisfies MetaRecord
