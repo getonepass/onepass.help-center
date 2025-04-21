@@ -11,7 +11,23 @@ import Link from "next/link"
 
 export const CategoriesCards = () => {
   return (
-    <section className="container w-[90cqw] grid lg:grid-cols-2 gap-5">
+    <section className="container w-[90cqw] grid lg:grid-cols-3 gap-5">
+      {/* Support articles */}
+      <Link href="/articles">
+        <Card>
+          <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-3">
+            <div>
+              <BookText />
+            </div>
+            <div>
+              <CardTitle>Support articles</CardTitle>
+              <CardDescription className="text-md mt-2">
+                Find answers to your questions and solutions to common issues.
+              </CardDescription>
+            </div>
+          </CardHeader>
+        </Card>
+      </Link>
       {/* Guides */}
       <Link href="/guides">
         <Card>
@@ -29,7 +45,7 @@ export const CategoriesCards = () => {
         </Card>
       </Link>
       {/* Learn */}
-      <Link href="/learn/decentralized-identity">
+      <Link href="/learn">
         <Card>
           <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-3">
             <div>

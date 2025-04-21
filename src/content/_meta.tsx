@@ -16,7 +16,6 @@ export default {
   articles: {
     title: "Articles",
     type: "page",
-    display: "hidden",
   },
   guides: {
     title: "Guides",
@@ -34,6 +33,10 @@ export default {
       "decentralized-identity": {
         title: "Decentralized Identity",
         href: "/learn/decentralized-identity",
+      },
+      fundraising: {
+        title: "Fundraising",
+        href: "/learn/fundraising",
       },
     },
   },
