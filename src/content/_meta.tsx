@@ -13,12 +13,13 @@ export default {
       breadcrumb: false,
     },
   },
-  articles: {
-    title: "Articles",
-    type: "page",
-  },
   guides: {
     title: "Guides",
+    type: "page",
+  },
+
+  articles: {
+    title: "Support articles",
     type: "page",
   },
   docs: {

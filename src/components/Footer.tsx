@@ -67,6 +67,11 @@ export const Footer = () => {
               Learn
             </a>
           </div>
+          <div>
+            <a href="/articles" className="opacity-60 hover:opacity-100">
+              Support articles
+            </a>
+          </div>
         </div>
       </section>
     </footer>

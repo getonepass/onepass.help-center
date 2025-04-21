@@ -32,6 +32,12 @@ export default function HomepageHero() {
         Additional learning resources and guides.
       </p>
       <ArticlesCardsList route="/learn" />
+      <Separator className="my-20" />
+      <h2 className="text-4xl font-bold text-center">Support articles</h2>
+      <p className="my-5 text-center">
+        Find answers to your questions and solutions to common issues
+      </p>
+      <ArticlesCards route="/articles" />
     </>
   )
 }
