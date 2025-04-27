@@ -98,7 +98,11 @@ export default async function RootLayout({
         <meta property="og:title" content={title} />
         <meta name="description" content={description} />
         <meta property="og:description" content={description} />
-        <script defer src="https://umami.getonepass.eu/script.js" data-website-id="4c749ab0-07f3-49da-831a-03e2fe207c84" />
+        <script
+          defer
+          src="https://umami.getonepass.eu/script.js"
+          data-website-id="4c749ab0-07f3-49da-831a-03e2fe207c84"
+        />
       </Head>
       <body
         className={cn(
